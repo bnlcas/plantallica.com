@@ -1,0 +1,35 @@
+.main {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family:sans-serif;
+}
+
+
+.main::before {
+    content: "";
+    background-image: url('../plantallica.png');
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 1.0;
+}
+
+.content
+{
+padding-top: 0px;
+padding-left: 0px;
+text-align: left;
+position: relative;
+z-index: 1;
+}
+
+img
+{
+padding: 0px;
+}
