@@ -10,7 +10,7 @@
 
 .main::before {
     content: "";
-    background-image: url('../plantallica.png');
+    background-image: url('../plantallica_kit.png');
     background-size: cover;
     position: fixed;
     top: 0px;
